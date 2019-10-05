@@ -2,6 +2,9 @@
 title A+B_Update
 cls
 
+https://github.com/eXP10iT6/AB_SQL.git
+
+
 rem Работа с каталогами
 md C:\AB_SQL\client
 md C:\AB_SQL\updater\UpdUpd

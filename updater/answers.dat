@@ -1,0 +1,15 @@
+open 192.168.1.213 24
+ftp_upd
+seKRERCz
+cd ftpupd
+lcd C:\AB_SQL\updater\UpdUpd
+get AB_Upd.cmd
+get answers.dat
+get ftp.exe
+get А+Б.lnk
+get А+Б_Обновление.lnk
+lcd C:\AB_SQL\client
+get Balans.7z
+get 7z.exe
+bye
+

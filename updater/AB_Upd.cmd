@@ -27,9 +27,9 @@ copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ.lnk" "%USERPROFILE%/Desktop/"
 copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ.lnk" "%USERPROFILE%/ђ Ў®зЁ© бв®«/"
 cls
 
-copy "C:\AB_SQL\updater\UpdUpd\AB_Upd.cmd" "C:/AB_SQL/updater/"
-copy "C:\AB_SQL\updater\UpdUpd\answers.dat" "C:/AB_SQL/updater/"
-copy "C:\AB_SQL\updater\UpdUpd\ftp.exe" "C:/AB_SQL/updater/"
+rem copy "C:\AB_SQL\updater\UpdUpd\AB_Upd.cmd" "C:/AB_SQL/updater/"
+rem copy "C:\AB_SQL\updater\UpdUpd\answers.dat" "C:/AB_SQL/updater/"
+rem copy "C:\AB_SQL\updater\UpdUpd\ftp.exe" "C:/AB_SQL/updater/"
 
 rem C:\AB_SQL\client\7z.exe e -oc:\ab_sql -y  C:\AB_SQL\client\BALANS.7z
 call c:\ab_sql\updater\check.exe

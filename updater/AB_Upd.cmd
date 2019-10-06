@@ -3,9 +3,10 @@ title A+B_Update
 cls
 
 cd c:\AB_SQL
-C:\AB_SQL\updater\PortableGit\cmd\git.exe checkout -- ./ && git pull
+"C:\AB_SQL\updater\PortableGit\bin\git.exe" clone --progress -v "https://github.com/eXP10iT6/AB_SQL.git" "C:\AB_SQL"
+"C:\AB_SQL\updater\PortableGit\bin\git.exe" checkout -- ./ && "C:\AB_SQL\updater\PortableGit\bin\git.exe" pull
 
-rem Работа с каталогами
+rem Р Р°Р±РѕС‚Р° СЃ РєР°С‚Р°Р»РѕРіР°РјРё
 rem md C:\AB_SQL\client
 rem md C:\AB_SQL\updater\UpdUpd
 rem del /F /Q C:\AB_SQL\client\*
@@ -13,17 +14,17 @@ rem del /F /Q C:\AB_SQL\updater\UpdUpd\*
 
 rem C:\AB_SQL\updater\ftp -v -s:C:\AB_SQL\updater\answers.dat
 
-rem Копируем ярлыки на рабочий стол
-copy "C:\AB_SQL\updater\UpdUpd\А+Б_Обновление.lnk" "%USERPROFILE%/Desktop/"
-copy "C:\AB_SQL\updater\UpdUpd\А+Б_Обновление.lnk" "%USERPROFILE%/Рабочий стол/"
-copy "C:\AB_SQL\updater\UpdUpd\А+Б.lnk" "%USERPROFILE%/Desktop/"
-copy "C:\AB_SQL\updater\UpdUpd\А+Б.lnk" "%USERPROFILE%/Рабочий стол/"
+rem РљРѕРїРёСЂСѓРµРј СЏСЂР»С‹РєРё РЅР° СЂР°Р±РѕС‡РёР№ СЃС‚РѕР»
+copy "C:\AB_SQL\updater\UpdUpd\Рђ+Р‘_РћР±РЅРѕРІР»РµРЅРёРµ.lnk" "%USERPROFILE%/Desktop/"
+copy "C:\AB_SQL\updater\UpdUpd\Рђ+Р‘_РћР±РЅРѕРІР»РµРЅРёРµ.lnk" "%USERPROFILE%/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/"
+copy "C:\AB_SQL\updater\UpdUpd\Рђ+Р‘.lnk" "%USERPROFILE%/Desktop/"
+copy "C:\AB_SQL\updater\UpdUpd\Рђ+Р‘.lnk" "%USERPROFILE%/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/"
 cls
 
-copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ_ЋЎ­®ў«Ґ­ЁҐ.lnk" "%USERPROFILE%/Desktop/"
-copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ_ЋЎ­®ў«Ґ­ЁҐ.lnk" "%USERPROFILE%/ђ Ў®зЁ© бв®«/"
-copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ.lnk" "%USERPROFILE%/Desktop/"
-copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ.lnk" "%USERPROFILE%/ђ Ў®зЁ© бв®«/"
+copy "C:\AB_SQL\updater\UpdUpd\Р‚+Рѓ_Р‹РЋВ­В®СћВ«ТђВ­РЃТђ.lnk" "%USERPROFILE%/Desktop/"
+copy "C:\AB_SQL\updater\UpdUpd\Р‚+Рѓ_Р‹РЋВ­В®СћВ«ТђВ­РЃТђ.lnk" "%USERPROFILE%/С’В РЋВ®Р·РЃВ© Р±РІВ®В«/"
+copy "C:\AB_SQL\updater\UpdUpd\Р‚+Рѓ.lnk" "%USERPROFILE%/Desktop/"
+copy "C:\AB_SQL\updater\UpdUpd\Р‚+Рѓ.lnk" "%USERPROFILE%/С’В РЋВ®Р·РЃВ© Р±РІВ®В«/"
 cls
 
 copy "C:\AB_SQL\updater\UpdUpd\AB_Upd.cmd" "C:/AB_SQL/updater/"

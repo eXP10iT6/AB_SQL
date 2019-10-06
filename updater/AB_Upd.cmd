@@ -11,13 +11,13 @@ copy "C:\AB_SQL\updater\UpdUpd\А+Б_Обновление.lnk" "%USERPROFILE%/De
 copy "C:\AB_SQL\updater\UpdUpd\А+Б_Обновление.lnk" "%USERPROFILE%/Рабочий стол/"
 copy "C:\AB_SQL\updater\UpdUpd\А+Б.lnk" "%USERPROFILE%/Desktop/"
 copy "C:\AB_SQL\updater\UpdUpd\А+Б.lnk" "%USERPROFILE%/Рабочий стол/"
-cls
+rem cls
 
 copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ_ЋЎ­®ў«Ґ­ЁҐ.lnk" "%USERPROFILE%/Desktop/"
 copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ_ЋЎ­®ў«Ґ­ЁҐ.lnk" "%USERPROFILE%/ђ Ў®зЁ© бв®«/"
 copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ.lnk" "%USERPROFILE%/Desktop/"
 copy "C:\AB_SQL\updater\UpdUpd\Ђ+Ѓ.lnk" "%USERPROFILE%/ђ Ў®зЁ© бв®«/"
-cls
+rem cls
 
 call c:\ab_sql\updater\check.exe
-rem pause
+pause

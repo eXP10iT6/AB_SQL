@@ -23,7 +23,7 @@ DisableWelcomePage=no
 
 
 [Files]
-Source: "C:\AB_SQL\*"; DestDir: "c:\AB_SQL\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\AB_SQL\*"; DestDir: "c:\AB_SQL\"; Flags: ignoreversion recursesubdirs createallsubdirs ; Excludes: "C:\AB_SQL\updater\ABSQLsetup.iss"
 Source: "C:\AB_SQL\.git\*"; DestDir: "c:\AB_SQL\.git\"; Flags: ignoreversion recursesubdirs createallsubdirs
 ;Source: "C:\1cv8distr\common\*"; DestDir: "{app}\common"; Flags: ignoreversion recursesubdirs createallsubdirs 
 ;Source: "C:\1cv8distr\1C.ico"; DestDir: "{commondesktop}\"; Flags: ignoreversion recursesubdirs createallsubdirs
